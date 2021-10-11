@@ -205,3 +205,21 @@
 6. 리베이스는 이력을 조작하는 행위기 때문에, 일반 푸시로는 수행할 수 없다.
 7. 히스토리를 강제로 조작하기 때문에, 혼자 사용하는 브랜치에만 해야하고, 특수한 옵션을 붙여서 강제 푸시해야한다.
 
+
+#### amend (수정) 방금 만든 커밋을 수정하고, 덮어쓰기 (이력 조작 중 하나)
+
+1. amend 는 직전의 커밋을 수정하고 덮어쓰는 개념이다.
+2. 기존의 커밋의 완성본(즉 수정본)을 만든 후에 스테이징한다.
+
+<img src="../GIT Images/git_06" align="left" width="80%" height=60%"></img>
+
+3. git commit --ammend 명령어를 사용한다. 라고 했다가 호되게 당했다.
+4. git commit --amend 명령어를 사용하면, basic editor 가 나오고 커밋 메시지를 함께 커밋하면 된다.
+
+<img src="../GIT Images/git_07" align="left" width="80%" height=60%"></img>
+
+5. 이미 푸시 넣었던 파일이라면 강제 푸시해야한다!
+
+<img src="../GIT Images/git_08" align="left" width="80%" height=60%"></img>
+
+
